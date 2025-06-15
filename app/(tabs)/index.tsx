@@ -40,10 +40,10 @@ export default function HomeScreen() {
       >
         <View className="mt-12 w-[80%]">
           <Text className="text-start text-3xl font-semibold">
-            Find your favourite Home in
+            Find your favourite home in
           </Text>
-          <View className="absolute -bottom-2 left-[40%] flex flex-row items-center justify-center gap-2 rounded-full bg-black p-3 pl-3 pr-4">
-            <MapPin size={20} color="#F8F9FF" strokeWidth={1} />
+          <View className="absolute -bottom-1 left-[38%] flex flex-row items-center justify-center gap-1.5 rounded-full bg-black p-2.5 pl-2.5 pr-3.5">
+            <MapPin size={18} color="#F8F9FF" strokeWidth={1} />
             <Text className="text-white">Canada</Text>
           </View>
         </View>

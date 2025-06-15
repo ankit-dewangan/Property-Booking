@@ -4,7 +4,7 @@ import React from 'react';
 export default function ListingTypes({ searchQuery }: { searchQuery: string }) {
   if (searchQuery) {
     return (
-      <View className="mb-3 flex flex-row gap-2">
+      <View className="mb-4 flex flex-row gap-2">
         <View className="self-start rounded-full border border-black bg-black p-3 px-5">
           <Text className="text-white">Search</Text>
         </View>
@@ -13,7 +13,7 @@ export default function ListingTypes({ searchQuery }: { searchQuery: string }) {
   }
 
   return (
-    <View className="mb-3 flex flex-row gap-2">
+    <View className="mb-4 flex flex-row gap-2">
       <View className="self-start rounded-full border border-black bg-black p-3 px-5">
         <Text className="text-white">Featured</Text>
       </View>
