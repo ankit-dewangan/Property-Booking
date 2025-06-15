@@ -12,7 +12,6 @@ interface BookingCardProps {
 export const BookingCard: React.FC<BookingCardProps> = ({
   booking,
   property,
-  onPress,
 }) => {
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('en-US', {
@@ -51,8 +50,7 @@ export const BookingCard: React.FC<BookingCardProps> = ({
   return (
     <TouchableOpacity
       className="mb-4 overflow-hidden rounded-[2rem] bg-white"
-      onPress={onPress}
-      activeOpacity={0.9}
+      activeOpacity={0.7}
     >
       <View className="p-5">
         <View className="mb-4">

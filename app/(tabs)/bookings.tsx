@@ -12,16 +12,11 @@ import { useBookings } from '@/hooks/useBookings';
 import { useProperties } from '@/hooks/useProperties';
 
 export default function BookingsScreen() {
-  const router = useRouter();
   const { data: bookings, isLoading: bookingsLoading, refetch } = useBookings();
   const { data: properties } = useProperties();
 
   const getPropertyById = (propertyId: string) => {
     return properties?.find((property) => property.id === propertyId);
-  };
-
-  const handleBookingPress = (propertyId: string) => {
-    router.push(`/property/${propertyId}`);
   };
 
   return (
@@ -48,7 +43,6 @@ export default function BookingsScreen() {
                   key={booking.id}
                   booking={booking}
                   property={property}
-                  onPress={() => handleBookingPress(booking.propertyId)}
                 />
               );
             })

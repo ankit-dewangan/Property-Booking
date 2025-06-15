@@ -114,6 +114,14 @@
       "checkIn": "2025-06-16",
       "checkOut": "2025-06-23",
       "status": "confirmed"
+    },
+    {
+      "id": "1750015898456",
+      "propertyId": "2",
+      "userId": "user1",
+      "checkIn": "2025-06-16",
+      "checkOut": "2025-06-23",
+      "status": "confirmed"
     }
   ],
   "profile": {
