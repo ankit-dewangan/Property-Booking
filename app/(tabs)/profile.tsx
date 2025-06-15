@@ -4,6 +4,7 @@ import {
   ScrollView,
   SafeAreaView,
   TouchableOpacity,
+  RefreshControl,
 } from 'react-native';
 import {
   User,
@@ -18,7 +19,7 @@ import { useProfile } from '@/hooks/useProfile';
 import { useBookings } from '@/hooks/useBookings';
 
 export default function ProfileScreen() {
-  const { data: profile } = useProfile();
+  const { data: profile, refetch } = useProfile();
   const { data: bookings } = useBookings();
 
   const userBookings =
@@ -60,6 +61,9 @@ export default function ProfileScreen() {
       <ScrollView
         className="flex-1"
         contentContainerClassName="px-5 pb-20 gap-10"
+        refreshControl={
+          <RefreshControl refreshing={false} onRefresh={refetch} />
+        }
       >
         <View className="mt-12">
           <Text className="text-start text-3xl font-semibold">My Profile</Text>

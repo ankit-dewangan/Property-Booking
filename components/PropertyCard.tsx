@@ -15,7 +15,7 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
 }) => {
   return (
     <TouchableOpacity
-      className="relative mb-3 overflow-hidden rounded-[2.5rem] shadow-lg"
+      className="relative mb-5 overflow-hidden rounded-[2rem] shadow-lg"
       onPress={onPress}
       activeOpacity={0.8}
     >
