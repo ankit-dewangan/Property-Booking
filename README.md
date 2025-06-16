@@ -62,16 +62,12 @@ npm run server
 
 ## 📸 Screenshots and Videos
 
-You can add screenshots and videos of your app here. For example:
-
-```markdown
 ### App Screenshots
 ![Home Screen](assets/home.png)
 ![Property Details](assets/property-details.png)
 
 ### Demo Video
-[![App Demo](assets/thumbnail.png)](assets/demo_video.mp4)
-```
+[![App Demo](assets/home.png)](assets/demo_video.mp4)
 
 ## 🤝 Assumptions
 
