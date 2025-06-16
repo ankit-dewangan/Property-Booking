@@ -62,12 +62,13 @@ npm run server
 
 ## 📸 Screenshots and Videos
 
-### App Screenshots
-![Home Screen](assets/home.png)
-![Property Details](assets/property-details.png)
-
 ### Demo Video
 [![App Demo](assets/home.png)](assets/demo_video.mp4)
+
+### App Screenshots
+![Single Property Details](assets/single.png)
+![Booking](assets/booking.png)
+![Property Details](assets/property-details.png)
 
 ## 🤝 Assumptions
 
