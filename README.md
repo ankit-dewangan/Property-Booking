@@ -15,7 +15,7 @@ A modern mobile application built with React Native and Expo for property bookin
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone [https://github.com/ankit-dewangan/Property-Booking.git]
 cd Property-Booking
 ```
 
